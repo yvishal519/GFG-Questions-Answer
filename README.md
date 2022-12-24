@@ -1,5 +1,4 @@
-# GFG-Questions-Answer
-## Calender Matching 
+# Calender Matching 
 
 # Problem Statement
 Imagine that you want to schedule a meeting of a certain duration with a coworker. You have access to your calendar and your coworker's calendar (both of which contain your respective meetings for the day, in the form of [startTime, endTime]), as well as both of your daily bounds (i.e., the earliest and latest times at which you're available for meetings every day, in the form of [earliestTime, latestTime]). Write a function that takes in your calendar, your daily bounds, your coworker's calendar, your coworker's daily bounds, and the duration of the meeting that you want to schedule, and that returns a list of all the time blocks (in the form of [startTime, endTime]) during which you could schedule the meeting. Note that times will be given and should be returned in military time (example times: '8:30', '9:01', '23:56').
